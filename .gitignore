@@ -1,13 +1,14 @@
 *.ts
+*.mp*
 *.mp4
+*.mov
 *.psd
-vod/*
+*/vod/*
 *.wmv
 spr2014/dev/MedieE/*
 w/*
-*.mp*
-Untitled*
+*/Untitled*
 *Copy*
-"New folder"
-OLD/*
-old2/*
+*/"New folder"/*
+*/OLD/*
+*/old2/*
