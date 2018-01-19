@@ -1,0 +1,7 @@
+/Volumes/webroot/hosts/webcast.mit.edu/fall2017
+vod:
+	1.69^2018f^20170919.mp4
+	1.69^2018f^20170926.mp4
+	1.69^2018f^20170928.mp4
+	1.69^2018f^L01^WHOI^20170907.mp4
+	1.69^2018f^L01^WHOI^20170912.mp4
