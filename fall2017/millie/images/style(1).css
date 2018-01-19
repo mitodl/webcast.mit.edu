@@ -1,0 +1,38 @@
+/*
+Theme Name: Twenty Seventeen child theme
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: Sampson
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen child theme
+Template: twentyseventeen
+Version: 1.0.0
+*/
+
+/***************
+FOOTER
+***************/
+
+.site-footer {
+	background-color: #565656;
+}
+
+/***************
+1025 AND UP
+***************/
+
+@media screen and (min-width:1025px) {
+
+	#content {
+		background-image: url('images/page_background.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top center;
+		background-size: cover;
+	}
+	
+	.site-footer {
+		margin-top: 0;
+		border-top: none;
+	}
+	
+}

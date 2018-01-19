@@ -1,0 +1,165 @@
+<rss version="2.0" xmlns:jwplayer="http://rss.jwpcdn.com/">
+<channel>
+
+ <!--
+  <item>
+  <title>Lecture 25 - May 15, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-5_15_2017.mp4" />
+  </item>
+ 
+  <item>
+ <title>Lecture 24 - May 10, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-5_1_2017.mp4" />
+  </item>
+   
+   <item>
+  <title>Lecture 23 - May 8, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-5_8_2017.mp4" />
+  </item>
+ 
+   <item>
+ <title>Lecture 22 - May 3, 2017</title>
+     <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-5_3_2017.mp4" />
+  </item>
+ 
+  <item>
+  <title>Lecture 21 - May 1, 2017</title>
+  <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+   jwplayer:source file="vod/video-5_1_2017.mp4" />
+  </item>
+ 
+  <item>
+ <title>Lecture 20 - Apr. 26, 2017</title>
+  <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_26_2017.mp4" />
+  </item>
+ 
+ <item>
+ <title>Lecture 19 - Apr. 24, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_24_2017.mp4" />
+  </item>
+  
+  <item>
+  <title>Lecture 18 - Apr. 19, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_19_2017.mp4" />
+  </item>
+  
+  <item>
+  <title>Lecture 17 - Apr. 12, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_3_2017.mp4" />
+  </item>
+  
+  <item>
+  <title>Lecture 16 - Apr. 10, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_12_2017.mp4" />
+  </item>
+ 
+ <item>
+ <title>Lecture 15 - Apr. 5, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_5_2017.mp4" />
+  </item>
+ 
+ <item>
+ <title>Lecture 14 - Apr. 3, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-4_3_2017.mp4" />
+  </item>
+ 
+  <item>
+ <title>Lecture 13 - Mar. 22, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-3_22_2017.mp4" />
+  </item>
+ 
+ <item>
+ <title>Lecture 12 - Mar. 20, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-3_20_2017.mp4" />
+  </item>-->
+ 
+  <item>
+ <title>Lecture 11 - May 17, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170517.mp4" />
+  </item>
+  
+   <item>
+     <title>Lecture 10 - Apr. 19, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170419.mp4" />
+  </item>
+  
+  <item>
+  <title>Lecture 9 - Mar. 8, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170308.mp4" />
+  </item>
+  
+ 
+
+<item>
+    <title>Lecture 8 - Mar. 6, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170306.mp4" />
+  </item>
+  
+  <item>
+    <title>Lecture 7 - Mar.  1, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170301.mp4" />
+  </item>
+
+
+<item>
+    <title>Lecture 6 - Feb. 28, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170228.mp4" />
+  </item>
+
+<item>
+    <title>Lecture 5 - Feb. 27, 2017</title>
+     <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170227.mp4" />
+  </item>
+  
+  
+<item>
+    <title>Lecture 4 - Feb. 22, 2017</title>
+	    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170222.mp4" />
+  </item>
+ 
+  
+<item>
+    <title>Lecture 3 - Feb. 21, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170221.mp4" />
+  </item>
+
+
+
+
+<item>
+    <title>Lecture 2 - Feb. 15, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170215.mp4" />
+  </item>
+  
+<item>
+    <title>Lecture 1 - Feb. 8, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/WHOI20170208.mp4" />
+  </item>
+
+
+</channel>
+</rss>
