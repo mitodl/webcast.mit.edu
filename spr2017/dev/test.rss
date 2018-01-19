@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:jwplayer="http://rss.jwpcdn.com/">
+<channel>
+
+  <item>
+    <title>Lecture 1</title>
+    <description>Lecture 1</description>
+    <jwplayer:image>slomo.png</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+<item>
+    <title>Sintel Trailer</title>
+    <description>Sintel is a fantasy CGI from the Blender Open Movie Project.</description>
+    <jwplayer:image>slomo.png</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+</channel>
+</rss>

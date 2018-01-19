@@ -1,0 +1,12 @@
+smil>
+<head>
+<meta base="rtmp://18.39.0.80/hds-live/livepkgr/_definst_/liveevent"/>
+</head>
+<body>
+<switch>
+<video src="livestream1" height="480" system-bitrate="800000" width="480" />
+<video src="livestream2" height="480" system-bitrate="400000" width="480" />
+<video src="livestream3" height="480" system-bitrate="100000" width="480" />
+</switch>
+</body>
+</smil>

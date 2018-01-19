@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<title>
+
+			Live Webcast
+
+		</title>
+
+		<script type="text/javascript" src="jwplayer.js"></script><script type="text/javascript">jwplayer.key="H7S75EtTz7mqybaq9pkoxghdmqoxBg5IYuj+Pg==";</script>
+<style type="text/css">
+
+
+
+
+
+			html, body {
+
+				height: 100%;
+
+				width: 100%;
+
+				padding: 0;
+
+				margin: 0;
+
+			}
+
+			#player {
+
+				height: 100%;
+
+				width: 100%; 
+
+				padding: 0;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+      <div id="myPlayerGoesHere">
+          <p>
+            <script language="javascript" type="text/javascript">
+
+	jwplayer("myPlayerGoesHere").setup({
+        flashplayer: "jwplayer.flash.swf",
+		sources: [
+{ file: "http://webcast.mit.edu/spr2017/ODL/1702/embed/video/XTALK-Federal-TechEdRoadmap-2017jan12-404p.mp4"},],
+image: 'player.jpg',
+rtmp: {
+bufferlength: 5
+},
+image: 'homepage.jpg',
+rtmp: {
+bufferlength: 5
+},
+
+width: "720",
+   logo: {
+file: 'http://webcast.amps.ms.mit.edu/ODL-sm.jpg',
+        link: ''
+    },
+
+      
+
+height: "404",
+
+    stretching: "exactfit",
+<!--autostart: "true",
+primary: "hls:true"
+
+});
+
+    </script>
+    </div>
+	</body>
+
+</html>
+
+

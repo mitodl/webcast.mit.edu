@@ -1,0 +1,12 @@
+<smil>
+<head>
+<meta base="rtmp://18.39.0.80/livepkgr/"/>
+</head>
+<body>
+<switch>
+<video src="livestream1" system-bitrate="500000" width="640" height="360" />
+<video src="livestream2" system-bitrate="300000" width="640" height="360" />
+<video src="livestream3" system-bitrate="100000" width="320" height="180" />
+</switch>
+</body> 
+</smil>

@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:jwplayer="http://rss.jwpcdn.com/">
+<channel>
+
+  
+ <!-- <item>
+    <title>Lecture 1 - Feb. 29, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-2_1_2017.mp4" />
+  </item>
+
+<item>
+    <title>Lecture 2 - Feb. 27, 2017</title>
+       <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/14.01-02-01.mp4" />
+  </item>
+
+
+<item>
+    <title>Lecture 3 - Feb. 22, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-9_14_2016.mp4" />
+  </item>
+
+<item>
+    <title>Lecture 4 - Feb. 20, 2017</title>
+     <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-9_14_2016.mp4" />
+  </item>
+  
+<item>
+    <title>Lecture 3 - Feb. 15, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/2017-01-30 12-42-32.mp4" />
+  </item>-->
+
+<item>
+    <title>Lecture 2 - Feb. 13, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video.mp4" />
+  </item>
+
+
+<item>
+    <title>Lecture 1 - Feb. 8, 2017</title>
+    <jwplayer:image>homepage17-02.jpg</jwplayer:image>
+    <jwplayer:source file="vod/video-9_7_2016.mp4" />
+  </item>
+
+
+</channel>
+</rss>
