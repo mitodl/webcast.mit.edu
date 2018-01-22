@@ -1,13 +1,25 @@
+# video files
 *.ts
 *.mp*
 *.mp4
+*.m4v
 *.mov
-*.psd
 *.wmv
+
+# raw image files
+*.psd
+*.ppm
+
+# unnecessary directories
 spr2014/dev/MedieE/*
 w/*
+
+# unnecessary copies 
 Untitled*
 *Copy*
+*\(2\)*
+
+# unnecessary unnecessary of directories
 *New\ folder/
 *OLD/
 *old2/
