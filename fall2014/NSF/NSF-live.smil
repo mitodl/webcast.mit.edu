@@ -1,0 +1,12 @@
+<smil>
+  <head>
+    <meta base="rtmpt://18.39.0.84/live/" />
+  </head>
+  <body>
+    <switch>
+    <video src="NSF-2" system-bitrate="208000"/>
+	<video src="NSF" system-bitrate="508000"/>      
+	      
+	</switch>
+  </body>
+</smil>

@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmpt://18.39.0.84/MIT" />
+  </head>
+  <body>
+    <switch>
+      <video src="mp4:2013-2014/mit-cast--lo-20147_06_47 PM-9_27_20144-7_06_47 PM-9_27_2014.mp4" system-bitrate="308000"/>
+	  <video src="mp4:2013-2014/mit-cast-hi-20147_06_46 PM-9_27_20144-7_06_46 PM-9_27_2014.mp4" system-bitrate="1008000"/>
+     </switch>
+  </body>
+</smil>

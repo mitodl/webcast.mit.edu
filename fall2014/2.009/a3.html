@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Live Webcast</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="" />
+	<meta name="description" content="" />
+
+<link href="http://libraries.mit.edu/amps/styles.css" rel="stylesheet" type="text/css" />
+
+<div id="webtv" style="display:block;width:640px;height:360px;margin:0 auto;"></div>
+
+</script>
+
+<style type="text/css">
+
+.myPlayerGoesHere
+
+body {
+	background-color: #FFF;
+}
+body {
+	background-color: #FFF;
+}
+.home #main p iframe {
+	text-align: center;
+}
+.home #main #content div h1 iframew2 {
+	text-align: center;
+}
+#iframe {
+	text-align: center;
+}
+body,td,th {
+	color: #D6D6D6;
+}
+</style>
+
+
+</head>
+<body class="home">
+<p class="skip"><a href="#content" id="top">skip to content</a></p>
+<!-- begin container -->
+<div id="container">
+	<!-- begin header --><!-- end header -->
+
+	<!-- begin main page area -->
+<div id="main">
+		<p>
+<!-- begin navigation -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+		<ul id="nav" class="col">
+		  <li id="about">
+		    <ul>
+	        </ul>
+	      </li>
+  </ul>
+
+	  <div id="content" class="col">
+        <div>
+          <h1>&nbsp;</h1>
+          <h1>&nbsp;</h1>
+          <h1>&nbsp;</h1>
+          <h1><br />
+          </h1>
+        </div>
+        <center>
+        <div id='myPlayerGoesHere'>    
+     // install flowplayer into container
+$f("webtv", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf", {
+    clip: {
+        url: "manifest.f4m",
+        urlResolvers: ["f4m", "bwcheck"],
+        provider: "httpstreaming",
+ 
+        // base URL for manifest and media files
+        baseUrl: "http://notavailable.invalid/live",
+ 
+        // URL of M3U8 playlist for iOS
+        ipadUrl: "http://webcast.amps.ms.mit.edu/fall2014/2.009/video/2.009_vod.m3u8",
+ 
+        scaling: "fit",
+        live: true
+    },
+    plugins: {
+        f4m: {
+            url: "flowplayer.f4m-3.2.10.swf"
+        },
+        httpstreaming: {
+            url: "flowplayer.httpstreaming-3.2.11.swf"
+        },
+ 
+        bwcheck: {
+            url: "flowplayer.bwcheck_httpstreaming-3.2.13.swf",
+            netConnectionUrl: "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf",
+            dynamic: true,
+ 
+            // bandwidth diagnostics - omitted in production
+            onStreamSwitchBegin: function (newItem, currentItem) {
+                this.getPlayer().getPlugin("content")
+                    .setHtml("Will switch from " + currentItem.bitrate +
+                             "kbps to " + newItem.bitrate + "kbps");
+            },
+            onStreamSwitch: function (newItem) {
+                this.getPlayer().getPlugin("content")
+                    .setHtml("Switched to " + newItem.bitrate + "kbps");
+            }
+        },
+ 
+        // plugin to display bandwidth diagnostics, usually omitted in production
+        content: {
+            url: "flowplayer.content-3.2.9.swf",
+            backgroundColor: "#000000",
+            backgroundGradient: "none",
+            height: 26,
+            width: 275,
+            bottom: 2
+        },
+        // a bit of controlbar styling
+        controls: {
+            scrubber: false,
+            height: 30,
+            borderRadius: 30,
+            width: 290,
+            bottom: 30
+        }
+    }
+}).ipad(); // sets up the player on iOS
+        <video controls poster='' width='608' height='366'>
+          <source src='video/2.009.m3u8' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <p><!-- begin right sidebar --></p>
+        <p>&nbsp;</p>
+</div>
+  </center></div>
+
+  <p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- end container -->
+</body>
+</html>
+
+
+

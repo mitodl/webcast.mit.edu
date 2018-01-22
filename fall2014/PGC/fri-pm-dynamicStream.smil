@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmp://cp268421.live.edgefcs.net/live/ " />
+  </head>
+  <body>
+    <switch>
+      <video src="abf-mit1@156705" system-bitrate="308000"/>
+      <video src="abf-mit2@156705" system-bitrate="808000"/>
+      </switch>
+  </body>
+</smil>

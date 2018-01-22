@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmpt://18.39.0.84/MIT" />
+  </head>
+  <body>
+    <switch>
+      <video src="mp4:2012-2013/mit-sal-khan-kresge-08may2013-lo.mp4" system-bitrate="408000"/>
+      <video src="mp4:2012-2013/mit-sal-khan-kresge-08may2013-hi.mp4" system-bitrate="1008000"/>
+     </switch>
+  </body>
+</smil>

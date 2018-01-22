@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 9]><html class="ie9" ><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" ><![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" xml:lang="en" dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" xml:lang="en" dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" xml:lang="en" dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <![endif]-->
+<!--[if !IE]><!--><script>
+if (/*@cc_on!@*/false) {
+    document.documentElement.className+=' ie10';
+}
+</script><!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js" xml:lang="en" lang="en" dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width" name="viewport" />
+<link rel="shortcut icon" href="http://edgerton.mit.edu/sites/default/files/favicon_latest.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/24" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/edgerton-center" />
+    <title>Home | Edgerton Center</title>
+    <style type="text/css" media="all">@import url("http://edgerton.mit.edu/sites/all/modules/custom/forked/calendar/css/calendar_multiday.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/custom/forked/date/date_api/date.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/custom/forked/date/date_popup/themes/datepicker.1.7.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/custom/forked/date/date_repeat_field/date_repeat_field.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/domain/domain_nav/domain_nav.css?nciqsm");
+@import url("http://edgerton.mit.edu/modules/field/theme/field.css?nciqsm");</style>
+<style type="text/css" media="screen">@import url("http://edgerton.mit.edu/sites/all/modules/contrib/flexslider/assets/css/flexslider_img.css?nciqsm");</style>
+<style type="text/css" media="all">@import url("http://edgerton.mit.edu/sites/all/modules/contrib/om_maximenu/css/om_maximenu.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/relation_add/relation_add.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/views/css/views.css?nciqsm");</style>
+<style type="text/css" media="all">@import url("http://edgerton.mit.edu/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/ctools/css/ctools.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/custom/edg_propose_visit/edg_propose_visit.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/panels/css/panels.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/custom/shib_auth/shib_auth.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/views_slideshow/views_slideshow.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/taxonomy_access/taxonomy_access.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/themes/edgerton/layouts/landing/landing.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/wysiwyg_tools_plus/css/wysiwyg_tools_plus.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/nice_menus/css/nice_menus.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/modules/contrib/nice_menus/css/nice_menus_default.css?nciqsm");</style>
+<style type="text/css" media="all">@import url("http://edgerton.mit.edu/sites/all/themes/edgerton/css/reset.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/themes/edgerton/css/tabs.css?nciqsm");
+@import url("http://edgerton.mit.edu/sites/all/themes/edgerton/css/style.css?nciqsm");</style>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src="/js/nwmatcher.min.js"></script>
+      <script type="text/javascript" src="//js/selectivizr.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="//js/respond.min.js"></script>
+      <script src="/js/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/jquery_update/replace/jquery/1.5/jquery.min.js?v=1.5.2"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/misc/drupal.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/nice_menus/js/jquery.bgiframe.js?v=2.1"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/nice_menus/js/jquery.hoverIntent.js?v=0.5"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/nice_menus/js/superfish.js?v=1.4.8"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/nice_menus/js/nice_menus.js?v=1.0"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/misc/ajax.js?v=7.22"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/media_colorbox/media_colorbox.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/om_maximenu/js/om_maximenu.js?nciqsm"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/libraries/colorbox/jquery.colorbox-min.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/colorbox/js/colorbox.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/libraries/jquery-expander/jquery.expander.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/custom/edg_misc/js/edg_misc.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/custom/edg_propose_visit/edg_propose_visit.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/panels/js/panels.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/views_slideshow/js/views_slideshow.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/views/js/base.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/misc/progress.js?v=7.22"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/modules/contrib/views/js/ajax_view.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/themes/edgerton/js/jquery.flexslider.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/themes/edgerton/js/slide-init.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/themes/edgerton/js/jcaption.min.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/themes/edgerton/js/libs/modernizr-2.5.3.min.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/themes/edgerton/js/jQuery.selectbox.js?nciqsm"></script>
+<script type="text/javascript" src="http://edgerton.mit.edu/sites/all/themes/edgerton/js/onload.js?nciqsm"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"edgerton","theme_token":"ts4vPNUlzs2on31ZKVhsxkm1RwyMSGd5yJIB27HdP8Q","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.5\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/media_colorbox\/media_colorbox.js":1,"sites\/all\/modules\/contrib\/om_maximenu\/js\/om_maximenu.js":1,"http:\/\/admin.brightcove.com\/js\/BrightcoveExperiences.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/libraries\/jquery-expander\/jquery.expander.js":1,"sites\/all\/modules\/custom\/edg_misc\/js\/edg_misc.js":1,"sites\/all\/modules\/custom\/edg_propose_visit\/edg_propose_visit.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/edgerton\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/edgerton\/js\/slide-init.js":1,"sites\/all\/themes\/edgerton\/js\/jcaption.min.js":1,"sites\/all\/themes\/edgerton\/js\/libs\/modernizr-2.5.3.min.js":1,"sites\/all\/themes\/edgerton\/js\/jQuery.selectbox.js":1,"sites\/all\/themes\/edgerton\/js\/onload.js":1},"css":{"sites\/all\/modules\/custom\/forked\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/custom\/forked\/date\/date_api\/date.css":1,"sites\/all\/modules\/custom\/forked\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/custom\/forked\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/contrib\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/modules\/contrib\/om_maximenu\/css\/om_maximenu.css":1,"sites\/all\/modules\/contrib\/relation_add\/relation_add.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/edg_propose_visit\/edg_propose_visit.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/shib_auth\/shib_auth.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/taxonomy_access\/taxonomy_access.css":1,"sites\/all\/themes\/edgerton\/layouts\/landing\/landing.css":1,"sites\/all\/modules\/contrib\/wysiwyg_tools_plus\/css\/wysiwyg_tools_plus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/themes\/edgerton\/css\/reset.css":1,"sites\/all\/themes\/edgerton\/css\/tabs.css":1,"sites\/all\/themes\/edgerton\/css\/style.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"edg_propose_visit":{"access_visit_node":false},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:12eab9318d330d541a6914d53ea7a7ae":{"view_name":"news","view_display_id":"panel_pane_1","view_args":"24","view_path":"node\/24","view_base_path":"feed\/audience\/%\/rss.xml","view_dom_id":"12eab9318d330d541a6914d53ea7a7ae","pager_element":0}}},"node":{"id":"24"},"nice_menus_options":{"delay":"800","speed":"slow"}});
+//--><!]]>
+</script>
+    <!--[if IE]>
+      <script type="text/javascript" src="//js/columns.js"></script>
+    <![endif]-->
+    </head>
+  <body class="html front not-logged-in no-sidebars page-node page-node- page-node-24 node-type-landing-page domain-edgerton landing-page-id-24 panels-layout" >
+        
+<!-- ______________________ HEADER _______________________ -->
+
+<div id="header">
+  <div id="header-inner">
+          <div id="utility-nav">
+        <!-- top hide utility nav on mobile-->
+        <div class="block block-domain-menu-block">
+	<div class="menu-block-wrapper menu-block-utility-menu menu-name-db0d52973fd1a6de638ced13076c3db2 parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-888 about mid-888"><a href="/about" title="About">About</a></li>
+<li class="leaf has-children menu-mlid-923 news mid-923"><a href="/news" title="News">News</a></li>
+<li class="leaf has-children menu-mlid-1533 give mid-1533"><a href="/give/give" title="Give">Give</a></li>
+<li class="leaf menu-mlid-1408 people mid-1408"><a href="/people" title="People">People</a></li>
+<li class="last leaf has-children menu-mlid-1389 contact mid-1389"><a href="/contact/edgerton" title="Contact">Contact</a></li>
+</ul></div>
+	<a class="mit-link-image" href="http://www.mit.edu" alt="MIT"><img src="/sites/all/themes/edgerton/images/mit-footer-logo.png"></a>
+</div>
+<div id="block-search-form" class="block block-search clearfix">
+  <div class="block-inner">
+                <div class="content" >
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Go →" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-JPOMS8_0M1t5HFkZXodH8RBcP7-wvt1YnTw6zos385o" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div> <!-- /block-inner /block -->      </div>
+              <div id="logo">
+        <div id="block-edg_domain_settings-domain_header_logo" class="block block-edg-domain-settings clearfix">
+  <div class="block-inner">
+                <div class="content" >
+        <div id="domain-logo">
+    <a href="http://edgerton.mit.edu/" title="Home" rel="home" id="domain_logo">
+      <img src="http://edgerton.mit.edu/sites/default/files/domain_logo_images/Edgerton-logo.png" alt="Home"/>
+    </a>
+  </div>
+    </div>
+  </div>
+</div> <!-- /block-inner /block -->      </div>
+      </div>
+</div>
+<nav id="nav-main">
+          <div id="block-nice_menus-1" class="block block-nice-menus clearfix">
+  <div class="block-inner">
+                <div class="content" >
+      <ul class="nice-menu nice-menu-down nice-menu-e7109cc2e49193c9daf60cef41fcbb3f" id="nice-menu-1"><li class="menu-907 menuparent  menu-path-node-57 first odd  academics mid-907"><a href="/academics" title="Academics">Academics</a><ul><li class="menu-929 menuparent  menu-path-node-72 first odd  subjects mid-929"><a href="/academics/subjects" title="Subjects">Subjects</a><ul><li class="menu-1104 menu-path-academics-courses-schedule-and-list first odd last course-schedule mid-1104"><a href="/academics/courses/schedule-and-list?semester=Fall&amp;year=2014" title="">Course Schedule</a></li>
+</ul></li>
+<li class="menu-931 menu-path-node-74  even  independent-projects mid-931"><a href="/academics/independent-projects" title="Independent Projects">Independent Projects</a></li>
+<li class="menu-932 menu-path-node-75  odd  urops mid-932"><a href="/academics/urops" title="UROPs">UROPs</a></li>
+<li class="menu-1229 menu-path-node-166  even last short-program mid-1229"><a href="/academics/short-program" title="Short Program">Short Program</a></li>
+</ul></li>
+<li class="menu-908 menuparent  menu-path-node-58  even  clubs-and-teams mid-908"><a href="/clubs-and-teams" title="Clubs and Teams">Clubs and Teams</a><ul><li class="menu-944 menuparent  menu-path-node-77 first odd  view-all-teams mid-944"><a href="/clubs-and-teams/view-all-teams" title="View All Teams">View All Teams</a><ul><li class="menu-1219 menu-path-node-155 first odd  electric-vehicle-team mid-1219"><a href="/clubs-teams/electric-vehicle-team" title="Electric Vehicle Team">Electric Vehicle Team</a></li>
+<li class="menu-1613 menu-path-node-655  even  engineering-design-group-for-exhibitions mid-1613"><a href="/clubs-teams/engineering-design-group-exhibitions" title="Engineering Design Group for Exhibitions">Engineering Design Group for Exhibitions</a></li>
+<li class="menu-1602 menu-path-node-551  odd  engineers-without-borders mid-1602"><a href="/clubs-teams/engineers-without-borders-0" title="Engineers Without Borders">Engineers Without Borders</a></li>
+<li class="menu-1231 menu-path-node-163  even  formula-sae mid-1231"><a href="/clubs-teams/formula-sae-mit-motorsports" title="Formula SAE">Formula SAE</a></li>
+<li class="menu-1619 menu-path-node-713  odd  mit-electronic-research-society mid-1619"><a href="/clubs-teams/mit-electronic-research-society" title="MIT Electronic Research Society">MIT Electronic Research Society</a></li>
+<li class="menu-1605 menu-path-node-626  even  mit-robotics-team mid-1605"><a href="/clubs-teams/mit-robotics-team" title="MIT Robotics Team">MIT Robotics Team</a></li>
+<li class="menu-1230 menu-path-node-164  odd  marine-robotics-team mid-1230"><a href="/clubs-teams/marine-robotics-team" title="Marine Robotics Team">Marine Robotics Team</a></li>
+<li class="menu-1220 menu-path-node-123  even  robotic-futbol-club mid-1220"><a href="/clubs-teams/robotic-futbol-club" title="Robocup">Robotic Futbol Club</a></li>
+<li class="menu-1617 menu-path-node-711  odd  rocket-team mid-1617"><a href="/clubs-teams/rocket-team" title="Rocket Team">Rocket Team</a></li>
+<li class="menu-1618 menu-path-node-712  even  solar-electric-vehicle-team mid-1618"><a href="/clubs-teams/solar-electric-vehicle-team" title="Solar Electric Vehicle Team">Solar Electric Vehicle Team</a></li>
+<li class="menu-1615 menu-path-node-674  odd  spokes mid-1615"><a href="/clubs-teams/spokes" title="Spokes">Spokes</a></li>
+<li class="menu-1614 menu-path-node-662  even  tech-model-railroad-club mid-1614"><a href="/clubs-teams/tech-model-railroad-club" title="Tech Model Railroad Club">Tech Model Railroad Club</a></li>
+<li class="menu-1302 menu-path-node-216  odd last unmanned-aerial-vehicle-club mid-1302"><a href="/clubs-teams/unmanned-aerial-vehicle-club" title="Unmanned Aerial Vehicle Club">Unmanned Aerial Vehicle Club</a></li>
+</ul></li>
+<li class="menu-1249 menu-path-node-179  even  faqs mid-1249"><a href="/clubs-and-teams/faqs" title="FAQs">FAQs</a></li>
+<li class="menu-1233 menu-path-node-169  odd  guide-for-club-and-team-members mid-1233"><a href="/clubs-and-teams/current-team-members/guide-for-members" title="Guide for Club and Team Members">Guide for Club and Team Members</a></li>
+<li class="menu-1415 menu-path-node-277  even last support mid-1415"><a href="/clubs-teams/support" title="Support">Support</a></li>
+</ul></li>
+<li class="menu-909 menuparent  menu-path-node-59  odd  d-lab-international mid-909"><a href="/d-lab-international" title="D-Lab / International">D-Lab / International</a><ul><li class="menu-1238 menu-path-d-labmitedu- first odd last d-lab mid-1238"><a href="http://d-lab.mit.edu/" title="D-Lab">D-Lab</a></li>
+</ul></li>
+<li class="menu-910 menuparent  menu-path-node-60  even  high-speed-imaging mid-910"><a href="/high-speed-imaging" title="High-Speed Imaging">High-Speed Imaging</a><ul><li class="menu-911 menu-path-taxonomy-term-16 first odd  courses mid-911"><a href="/subjects/high-speed-imaging" title="Courses">Courses</a></li>
+<li class="menu-912 menu-path-node-62  even  high-speed-images mid-912"><a href="/high-speed-imaging/high-speed-images" title="High-Speed Images">High-Speed Images</a></li>
+<li class="menu-945 menu-path-node-78  odd  high-speed-video mid-945"><a href="/high-speed-imaging/high-speed-video" title="High-Speed Video">High-Speed Video</a></li>
+<li class="menu-946 menu-path-node-79  even  web-resources mid-946"><a href="/high-speed-imaging/web-resources" title="Web Resources">Web Resources</a></li>
+<li class="menu-947 menu-path-node-80  odd  resources-for-mit-projects mid-947"><a href="/high-speed-imaging/resources-mit-projects" title="Lights, Cameras, Lenses">Resources for MIT Projects</a></li>
+<li class="menu-1287 menu-path-edgerton-digital-collectionsorg-  even last doc-edgerton-s-digital-collection mid-1287"><a href="http://edgerton-digital-collections.org/" title="">Doc Edgerton’s Digital Collection</a></li>
+</ul></li>
+<li class="menu-862 menuparent  menu-path-node-32  odd  k-12 mid-862"><a href="/k-12" title="K-12">K-12</a><ul><li class="menu-887 menu-path-node-30 first odd  about-k-12 mid-887"><a href="/k-12/about" title="About K–12">About K–12</a></li>
+<li class="menu-950 menuparent  menu-path-node-83  even  school-year-opportunities mid-950"><a href="/k-12/school-year-opportunities" title="School-Year Opportunities">School-Year Opportunities</a><ul><li class="menu-951 menuparent  menu-path-node-84 first odd  academic-field-trips-to-mit mid-951"><a href="/outreach" title="Academic Field Trips to MIT">Academic Field Trips to MIT</a><ul><li class="menu-952 menu-path-node-85 first odd  who-can-participate- mid-952"><a href="/k-12/academic-fieldtrips-mit/who-can-participate" title="Who Can Participate?">Who Can Participate?</a></li>
+<li class="menu-953 menuparent  menu-path-node-86  even  topics-offered mid-953"><a href="/k-12/academic-fieldtrips-mit/topics-offered" title="Topics Offered">Topics Offered</a><ul><li class="menu-1312 menuparent  menu-path-taxonomy-term-104 first odd  biology mid-1312"><a href="/k-12/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/biology">Biology</a><ul><li class="menu-1412 menu-path-node-273 first odd  the-shape-of-life mid-1412"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/subjects-offered/biology/shape-life" title="The Shape of Life">The Shape of Life</a></li>
+<li class="menu-1393 menu-path-node-257  even last living-lego mid-1393"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/biology/living-lego" title="Living LEGO">Living LEGO</a></li>
+</ul></li>
+<li class="menu-1382 menuparent  menu-path-taxonomy-term-120  even  electrical-engineering mid-1382"><a href="/k-12/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/electrical-engineering" title="Electrical Engineering">Electrical Engineering</a><ul><li class="menu-1395 menu-path-node-259 first odd  flashlight-building mid-1395"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/electrical-engineering/flashlight-building" title="Flashlight Building">Flashlight Building</a></li>
+<li class="menu-1394 menu-path-node-258  even last quizboards mid-1394"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/electrical-engineering/quiz-boards" title="Quizboards">Quizboards</a></li>
+</ul></li>
+<li class="menu-1381 menuparent  menu-path-taxonomy-term-119  odd  mechanical-engineering mid-1381"><a href="/k-12/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/mechanical-engineering" title="Mechanical Engineering">Mechanical Engineering</a><ul><li class="menu-1397 menu-path-node-261 first odd  gear-up-gear-down mid-1397"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/mechanical-engineering/motorized-lego-car-rally" title="Gear Up/Gear Down">Gear Up/Gear Down</a></li>
+<li class="menu-1396 menu-path-node-260  even last lego-car-rally mid-1396"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/mechanical-engineering/lego-car-rally" title="LEGO Car Rally">LEGO Car Rally</a></li>
+</ul></li>
+<li class="menu-1313 menuparent  menu-path-taxonomy-term-105  even  optics-and-photography mid-1313"><a href="/k-12/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/optics-and-photography" title="Optics and Photography">Optics and Photography</a><ul><li class="menu-1398 menu-path-node-262 first odd  edgerton-explorations mid-1398"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/optics-and-photography/edgerton-explorations" title="Edgerton Explorations">Edgerton Explorations</a></li>
+<li class="menu-1399 menu-path-node-263  even last laser-mazes mid-1399"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/optics-and-photography/laser-mazes" title="Laser Mazes">Laser Mazes</a></li>
+</ul></li>
+<li class="menu-1392 menuparent  menu-path-taxonomy-term-145  odd last other-activities mid-1392"><a href="/k-12/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/other-activities" title="Other Activities">Other Activities</a><ul><li class="menu-1400 menu-path-node-264 first odd  csi-mit mid-1400"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/other-activities/csi-mit" title="CSI: MIT">CSI: MIT</a></li>
+<li class="menu-1401 menuparent  menu-path-node-265  even  grungy-groundwater mid-1401"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/other-activities/grungy" title="Grungy Groundwater">Grungy Groundwater</a><ul><li class="menu-1413 menu-path-node-275 first odd last for-teachers mid-1413"><a href="/node/275" title="For Teachers">For Teachers</a></li>
+</ul></li>
+<li class="menu-1402 menu-path-node-266  odd last lego-chemistry mid-1402"><a href="/k-12/school-year-opportunities/academic-fieldtrips-mit/%EF%BF%BCsubjects-offered/other-activities/lego-chemistry" title="LEGO Chemistry">LEGO Chemistry</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-954 menu-path-node-87  odd  calendar mid-954"><a href="/k-12/school-year-opportunities/academic-field-trips-mit/calendar" title="Calendar">Calendar</a></li>
+<li class="menu-955 menu-path-node-88  even  location mid-955"><a href="/k-12/school-year-opportunities/academic-field-trips-mit/location" title="Location">Location</a></li>
+<li class="menu-1562 menu-path-node-420  odd last request-a-visit mid-1562"><a href="/k-12/school-year-opportunities/academic-field-trips-mit/request-visit" title="Request a Visit">Request a Visit</a></li>
+</ul></li>
+<li class="menu-957 menu-path-node-90  even  the-saturday-thing mid-957"><a href="/k-12/academic-fieldtrips-mit/saturday-thing" title="The Saturday Thing">The Saturday Thing</a></li>
+<li class="menu-958 menu-path-node-104  odd  teacher-professional-development mid-958"><a href="/k-12/teacher-resources/teacher-pd" title="Teacher Professional Development">Teacher Professional Development</a></li>
+<li class="menu-1603 menu-path-node-577  even  science-on-saturday mid-1603"><a href="/scienceonsaturday" title="Science on Saturday">Science on Saturday</a></li>
+<li class="menu-1414 menu-path-node-276  odd last other-opportunities mid-1414"><a href="/k-12/school-year-opportunities/other-school-year-opportunities" title="Other Opportunities">Other Opportunities</a></li>
+</ul></li>
+<li class="menu-959 menuparent  menu-path-node-91  odd  summer-opportunities mid-959"><a href="/k-12/summer-opportunities" title="Summer Opportunities">Summer Opportunities</a><ul><li class="menu-963 menu-path-node-95 first odd  engineering-design-workshop mid-963"><a href="/k-12/summer-opportunites/engineering-design-workshop" title="Engineering Design Workshop">Engineering Design Workshop</a></li>
+<li class="menu-962 menu-path-node-94  even  ge-girls-at-mit mid-962"><a href="/k-12/summer-opportunites/ge-girls-mit" title="GE Girls at MIT">GE Girls at MIT</a></li>
+<li class="menu-960 menu-path-node-92  odd  gloucester-summer-engineering-adventure mid-960"><a href="/k-12/summer-opportunites/summer-engineering-adventure" title="Gloucester Summer Engineering Adventure">Gloucester Summer Engineering Adventure</a></li>
+<li class="menu-961 menu-path-node-93  even  you-go-girl- mid-961"><a href="/yougogirl" title="You GO Girl!">You GO Girl!</a></li>
+<li class="menu-1606 menu-path-node-624  odd  sea-glide-workshop mid-1606"><a href="/k-12/sea-glide-camp" title="Sea Glide Workshop">Sea Glide Workshop</a></li>
+<li class="menu-1283 menu-path-node-185  even last other-opportunities mid-1283"><a href="/k-12/k-12-home/summer-opportunites/other-summer-opportunities" title="Other Opportunities">Other Opportunities</a></li>
+</ul></li>
+<li class="menu-969 menuparent  menu-path-node-101  even  teacher-resources mid-969"><a href="/k-12/teacher-resources" title="Teacher Resources">Teacher Resources</a><ul><li class="menu-971 menuparent  menu-path-node-103 first odd  k-12-curriculum mid-971"><a href="/k-12/teacher-resources/k-12-curriculum" title="K-12 Curriculum">K-12 Curriculum</a><ul><li class="menu-1328 menuparent  menu-path-taxonomy-term-89 first odd  atoms-molecules mid-1328"><a href="/atoms-molecules" title="Atoms &amp; Molecules Set">Atoms &amp; Molecules</a><ul><li class="menu-1334 menu-path-node-120 first odd  photosynthesis mid-1334"><a href="/k-12/teacher-resources/k-12-curriculum/lego-atoms-molecules/photosynthesis" title="Photosynthesis">Photosynthesis</a></li>
+<li class="menu-1409 menu-path-node-269  even  chemical-reactions mid-1409"><a href="/chemical-reactions" title="Chemical Reactions">Chemical Reactions</a></li>
+<li class="menu-1545 menu-path-node-300  odd  understanding-air mid-1545"><a href="/k-12/teacher-resources/k-12-curriculum/atoms-molecules/understanding-air" title="Understanding Air">Understanding Air</a></li>
+<li class="menu-1625 menu-path-node-847  even last additional-modules mid-1625"><a href="/k-12/teacher-resources/k-12-curriculum/atoms-molecules/additional-modules" title="Additional Modules">Additional Modules</a></li>
+</ul></li>
+<li class="menu-1327 menuparent  menu-path-taxonomy-term-90  even last dna-learning-center-set mid-1327"><a href="/k-12/teacher-resources/k-12-materials/dna-learning-center-set" title="DNA Learning Center Set made with LEGO® bricks">DNA Learning Center Set</a><ul><li class="menu-1411 menu-path-node-272 first odd last dna-protein-and-trna mid-1411"><a href="/DNA-learning-center" title="DNA, Protein, and tRNA">DNA, Protein, and tRNA</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-972 menuparent  menu-path-node-104  even  teacher-professional-development mid-972"><a href="/k-12/teacher-resources/teacher-pd" title="Teacher Professional Development">Teacher Professional Development</a><ul><li class="menu-978 menu-path-node-110 first odd  atoms-molecules-workshops mid-978"><a href="/k-12/teacher-resources/teacher-pd/atoms-molecules-workshops" title="Atoms &amp; Molecules Workshops">Atoms &amp; Molecules Workshops</a></li>
+<li class="menu-1289 menu-path-node-191  even  dna-workshops mid-1289"><a href="/k-12/k-12-home/teacher-resources/teacher-pd/lego-dna-workshops" title="DNA Workshops">DNA Workshops</a></li>
+<li class="menu-979 menu-path-node-111  odd last scientist-in-my-classroom mid-979"><a href="/k-12/teacher-resources/teacher-pd/scientist-classroom" title="Scientist in my Classroom">Scientist in my Classroom</a></li>
+</ul></li>
+<li class="menu-973 menu-path-node-105  odd  other-resources mid-973"><a href="/k-12/teacher-resources/other-teacher-resources" title="Other Resources">Other Resources</a></li>
+<li class="menu-1529 menu-path-node-279  even last subscribe mid-1529"><a href="/k-12/teacher-resources/subscribe" title="Subscribe">Subscribe</a></li>
+</ul></li>
+<li class="menu-1105 menu-path-node-148  odd  images mid-1105"><a href="/k-12/images" title="Images">Images</a></li>
+<li class="menu-1154 menu-path-node-149  even last video mid-1154"><a href="/k-12/video" title="Video">Video</a></li>
+</ul></li>
+<li class="menu-1303 menuparent  menu-path-node-218  even  student-shops mid-1303"><a href="/student-shops" title="Student Shops">Student Shops</a><ul><li class="menu-1040 menuparent  menu-path-node-126 first odd  edgerton-student-shop mid-1040"><a href="/student-shop" title="Edgerton Student Shop">Edgerton Student Shop</a><ul><li class="menu-1291 menu-path-node-192 first odd  hours mid-1291"><a href="/student-shops/edgerton-student-shop/hours" title="Hours">Hours</a></li>
+<li class="menu-1380 menu-path-node-246  even  training mid-1380"><a href="/student-shops/edgerton-student-shop/training" title="Training">Training</a></li>
+<li class="menu-1045 menu-path-node-131  odd last tools-and-equipment mid-1045"><a href="/student-shops/edgerton-student-shop/tools-and-equipment" title="Tools and Equipment">Tools and Equipment</a></li>
+</ul></li>
+<li class="menu-1534 menu-path-studentlifemitedu-hobbyshop  even  mit-hobby-shop mid-1534"><a href="http://studentlife.mit.edu/hobbyshop" title="MIT Hobby Shop">MIT Hobby Shop</a></li>
+<li class="menu-1042 menu-path-node-128  odd last other-resources-for-mit-projects mid-1042"><a href="/student-shops/other-resources-mit-projects" title="Other Resources for MIT Projects">Other Resources for MIT Projects</a></li>
+</ul></li>
+<li class="menu-1155 menu-path-node-150  odd  images mid-1155"><a href="/images-and-video/image-gallery" title="Images">Images</a></li>
+<li class="menu-1156 menu-path-node-151  even last video mid-1156"><a href="/images-and-video/video-gallery" title="Video">Video</a></li>
+</ul>
+    </div>
+  </div>
+</div> <!-- /block-inner /block -->    </nav>
+<!-- Keep header region for block usage. -->
+<!-- Render tabs and messages just below that -->
+
+
+<div id="bodyshell">
+  <div id="bodywrap">
+    
+<div class="top">
+	<div class="equal">
+		<div class="row">
+							<div class="one" >
+					<div class="panel-pane pane-views-panes pane-landing-page-slides-panel-pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-landing-page-slides view-id-landing_page_slides view-display-id-panel_pane_1 view-dom-id-4032710f0461ef0e63f6bb022c67b306">
+        
+  
+  
+      <div class="view-content">
+      
+
+<div id="flex-slideshow" class="landing">
+	<ul class="slides">
+					<li class="slide">
+			  <div class="views-row views-row-1 views-row-odd views-row-first">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-3-0" class="styles file-styles node_slide">  <img id="3" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/UnderwaterDreams_0_0.jpg?itok=DcuTxWzo" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Screens Oct 24th from 6 - 8:30 pm in Building 10-250</p>
+<span class="link-to-content"><a href="/events/underwater-dreams-oct-24-6-830-pm">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+					<li class="slide">
+			  <div class="views-row views-row-2 views-row-even">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-4-0" class="styles file-styles node_slide">  <img id="4" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/Academics-classroom-2-dominick-reuter_0_0.jpg?itok=KG6Fxbik" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Edgerton Center offers a wide range of subjects for MIT students </p>
+<span class="link-to-content"><a href="/academics">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+					<li class="slide">
+			  <div class="views-row views-row-3 views-row-odd">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-5-0" class="styles file-styles node_slide">  <img id="5" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/FSAE%20grey%20scale%20lincoln_0_0.jpg?itok=i8A44Pkp" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Student team Formula SAE racing in Lincoln, Nebraska </p>
+<span class="link-to-content"><a href="/clubs-and-teams">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+					<li class="slide">
+			  <div class="views-row views-row-4 views-row-even">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-6-0" class="styles file-styles node_slide">  <img id="6" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/20120121_untitled_036%20copy%202_0.jpg?itok=uqKCf75V" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>D-Lab provides students with the opportunity to make a real impact on people living in poverty</p>
+<span class="link-to-content"><a href="/d-lab-international">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+					<li class="slide">
+			  <div class="views-row views-row-5 views-row-odd">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-7-0" class="styles file-styles node_slide">  <img id="7" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/High-speed-imaging-home_0_0.jpg?itok=CpEHw3fp" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Water drop on a butterfly wing by Paxson, Hounsell, Bales, Bird and Varanasi </p>
+<span class="link-to-content"><a href="/high-speed-imaging">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+					<li class="slide">
+			  <div class="views-row views-row-6 views-row-even">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-8-0" class="styles file-styles node_slide">  <img id="8" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/K-12-2-dominick-reuter_0_0.jpg?itok=UQ_9eL2i" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Students in our K-12 programs learn how to solder electrical circuits</p>
+<span class="link-to-content"><a href="/content/karma">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+					<li class="slide">
+			  <div class="views-row views-row-7 views-row-odd views-row-last">
+			      
+  <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-9-0" class="styles file-styles node_slide">  <img id="9" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_slider/public/media/Untitled-7.png?itok=3yAGTvOi" width="650" height="410" /></span></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Arolyn Conwill at work in the Edgerton Student Shop</p>
+<span class="link-to-content"><a href="/student-shops">Learn more</a></span></div>  </div>			  </div>
+		  </li>
+			</ul>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+				</div>
+										<div class="two" >
+					<div class="panel-pane pane-entity-field pane-node-field-about" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-about field-type-entityreference field-label-hidden"><div class="field-items"><div class="field-item even"><article id="node-33" class="node node-page node-odd">
+  <div class="node-inner">
+    <header>
+              <h2 property="dc:title" datatype=""><a href="/about">About the Edgerton Center</a></h2>
+        
+                
+          </header>
+    <div class="content">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Build and test projects, learn new skills, explore madcap ideas, and get advice and encouragement &#8212 the Edgerton Center is the place where mind and hand come together.</p>
+</div></div></div>    </div>
+          <footer>
+            
+              <div class="links"></div>
+            </footer>
+      </div> <!-- /node-inner -->
+</article> <!-- /node-->
+</div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-landing-page-about-link" >
+  
+      
+  
+  <div class="pane-content">
+    
+
+<div class="about-link">
+	<div class='output'><a href="/about" class="about-link">Learn more about the center</a></div>
+</div>  </div>
+
+  
+  </div>
+				</div>
+					</div>
+	</div>
+</div>
+
+	<div class="bottom" >
+		<div class="panel-pane pane-views-panes pane-news-panel-pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-news view-id-news view-display-id-panel_pane_1 view-dom-id-12eab9318d330d541a6914d53ea7a7ae">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+
+          <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-0-0" class="styles file-styles node_tile">  <img typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_news/public/media/water-drop-butterly-hounsell_0_0.jpg?itok=iBK5hP_q" width="320" height="180" /></span></div>    </div>          <div class="views-field views-field-nothing">        <span class="field-content"><span class="body"><p>Pick up a copy of Nature or National Geographic, and you are bound to find a selection of... <a href="/node/710" class="views-more-link">Read more</a></span></span>    </div>    </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+
+          <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-1-0" class="styles file-styles node_tile">  <img id="1" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_news/public/media/SEVT-team_0_0.png?itok=PIkMgfo2" width="320" height="180" /></span></div>    </div>          <div class="views-field views-field-nothing">        <span class="field-content"><span class="body"><p>MIT team members prepare "Valkyrie" for the American Solar Challenge race from Austin, TX to St... <a href="/node/708" class="views-more-link">Read more</a></span></span>    </div>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    
+
+          <div class="views-field views-field-field-media">        <div class="field-content"><span id="styles-2-0" class="styles file-styles node_tile">  <img id="2" typeof="foaf:Image" src="http://edgerton.mit.edu/sites/default/files/styles/level_one_news/public/media/Jackie-Sly-in-the-frame_0_0.jpg?itok=mVDqbe1_" width="320" height="180" /></span></div>    </div>          <div class="views-field views-field-nothing">        <span class="field-content"><span class="body"><p>The MIT Formula SAE team heats up the road. This June the team will debut their new electric car... <a href="/node/654" class="views-more-link">Read more</a></span></span>    </div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+	</div>
+  </div>
+</div>
+
+<!-- ______________________ FOOTER _______________________ -->
+
+  <div id="footer">
+      <section id="block-edg_domain_settings-domain_social_media" class="block block-edg-domain-settings clearfix">
+  <div class="block-inner">
+              <h2 class="block-title">Follow Us</h2>
+            <div class="content" >
+      <div class="domain-social-media-icons">
+  <div class="item-list"><ul class="sm-icons"><li class="first"><a href="http://www.facebook.com/MITEdgertonCenter" class="facebook sm-icon" target="_blank"><img typeof="foaf:Image" src="/sites/all/modules/custom/edg_domain_settings/templates/sm-facebook-24.png" alt="" /></a></li>
+<li class="last"><a href="http://twitter.com/MITEdgerton" class="twitter sm-icon" target="_blank"><img typeof="foaf:Image" src="/sites/all/modules/custom/edg_domain_settings/templates/sm-twitter-24.png" alt="" /></a></li>
+</ul></div></div>
+    </div>
+  </div>
+</section> <!-- /block-inner /block --><section id="block-views--exp-browse-panel_pane_1" class="block block-views clearfix">
+  <div class="block-inner">
+              <h2 class="block-title">Browse By</h2>
+            <div class="content" >
+      <form action="/browse" method="get" id="views-exposed-form-browse-panel-pane-1" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Topic(s)          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-title">
+ <input placeholder="Topic(s)" type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-type-wrapper" class="views-exposed-widget views-widget-filter-type">
+                  <label for="edit-type">
+            Type          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-type">
+ <select id="edit-type" name="type" class="form-select"><option value="All" selected="selected">- Any -</option><option value="club_team">Club/Team</option><option value="course">Course</option><option value="event">Event</option><option value="lesson_package">Lesson Package</option><option value="article">News</option><option value="page">Page</option><option value="project">Project</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-audience-tid-wrapper" class="views-exposed-widget views-widget-filter-field_audience_tid">
+                  <label for="edit-field-audience-tid">
+            Audience          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-audience-tid">
+ <select id="edit-field-audience-tid" name="field_audience_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="113">Doc Edgerton</option><option value="2">MIT Students</option><option value="60">Researchers</option><option value="9">Clubs and Teams</option><option value="3">K-12</option><option value="6">K-12 Teachers</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-sectional-program-tid-wrapper" class="views-exposed-widget views-widget-filter-field_sectional_program_tid">
+                  <label for="edit-field-sectional-program-tid">
+            Sectional Program          </label>
+                        <div class="views-widget">
+          <input type="hidden" name="field_sectional_program_tid" value="All" />
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-browse" name="" value="Go →" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>    </div>
+  </div>
+</section> <!-- /block-inner /block --><div id="block-block-1" class="block block-block clearfix">
+  <div class="block-inner">
+                <div class="content" >
+      <p><img class="mit-logo" src="/sites/all/themes/edgerton/images/mit-footer-logo.png"></p>
+<div class="mit-credit oel-credit credit">
+<div class="title"><a href="http://web.mit.edu" target="_blank">Massachusetts Institute of Technology</a></div>
+<div class="detail"><a href="http://due.mit.edu/">Dean of Undergraduate Education</a><br><a href="http://oel.mit.edu" target="_blank">Office of Experiential Learning</a><br>&nbsp;</div>
+</div>
+<p>&nbsp;</p>
+    </div>
+  </div>
+</div> <!-- /block-inner /block --><div id="block-block-8" class="block block-block clearfix">
+  <div class="block-inner">
+                <div class="content" >
+      <div class="mit-credit">
+<div class="title">MIT Edgerton Center</div>
+<div class="detail">77 Massachusetts Avenue, 4-408<br>Cambridge, MA 02139 &nbsp;617.253.4629</div>
+</div>
+<p>&nbsp;</p>
+    </div>
+  </div>
+</div> <!-- /block-inner /block --><div id="block-edg_domain_settings-domain_contact_login" class="block block-edg-domain-settings clearfix">
+  <div class="block-inner">
+                <div class="content" >
+      <div class="domain-contact-links">
+    <div class="item-list"><ul class="contact-login-links"><li class="first"><a href="http://edgerton.mit.edu/contact/edgerton" class="contact-link">Contact Us</a></li>
+<li><a href="http://edgerton.mit.edu/about-0" class="contact-link about">About</a></li>
+<li class="last"><a href="https://edgerton.mit.edu/Shibboleth.sso/Login?target=https%3A%2F%2Fedgerton.mit.edu%2F%3Fq%3Dshib_login%2Fnode%2F24" class="login-link">Staff Login</a></li>
+</ul></div><a href="/about/room-calendar" class="contact-link">Room Calendar</a>  </div>
+    </div>
+  </div>
+</div> <!-- /block-inner /block --><div id="block-block-2" class="block block-block clearfix">
+  <div class="block-inner">
+                <div class="content" >
+      <p>Copyright MIT</p>
+    </div>
+  </div>
+</div> <!-- /block-inner /block -->  </div> <!-- /footer -->
+      </body>
+</html>
