@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<title>
+
+			Live Webcast
+
+		</title>
+
+		<script type="text/javascript" src="jwplayer.js"></script><script type="text/javascript">jwplayer.key="JnNCLPGtYUWoqvF31aCfOHwvvVo69RWS4UkMe+CW0e4=";</script>
+<style type="text/css">
+
+<style type="text/css">
+
+
+
+			html, body {
+
+				height: 100%;
+
+				width: 100%;
+
+				padding: 0;
+
+				margin: 0;
+
+			}
+
+			#player {
+
+				height: 100%;
+
+				width: 100%; 
+
+				padding: 0;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+     <div id="myElement">&nbsp;</div>
+<script type="text/javascript">
+var playerInstance = jwplayer("myElement");
+playerInstance.setup({
+  image: "14.01-banner1.png",
+  file: "video.mp4",  
+ width: "100%",
+ aspectratio:"47:20"
+});
+
+<script src="embed.js?plugin=captions&settings=width:560,skin:light,overlay:true,overlay_offset_y:-40,overlay_draggable:true,minimize_onload:true&searchbar:true&player_type=youtube&player_id=myytplayer" type="text/javascript"></script>
+
+ 
+	</body>
+
+</html>
+
+

@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:jwplayer="http://developer.longtailvideo.com/">
+  <channel>
+    <title>Flash Multi Bit Rate Playlist</title>
+    <item>
+      <title>Live Streaming</title>
+      <description>Spheres MIT</description>
+      <media:group>
+        <media:content bitrate="500" url="MITlive-hi" width="600" />
+        <media:content bitrate="200" url="MITlive-lo" width="320" />
+      </media:group>
+      <jwplayer:streamer>rtmp://18.39.0.84/live/</jwplayer:streamer>
+      <jwplayer:provider>rtmp</jwplayer:provider>
+    </item>
+  </channel>
+</rss>

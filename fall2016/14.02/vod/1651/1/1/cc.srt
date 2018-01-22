@@ -1,0 +1,499 @@
+﻿WEBVTT
+
+
+00: 00: 01.661 -> 00: 00: 05.248
+Welcome the topic "Basic Addition"
+
+00: 00: 10.747 -> 00: 00: 15.064
+hopefully it will be simple after this course, or in a few weeks
+
+00: 00: 15.080 -> 00: 00: 18.287
+Let's start with some pieces
+
+00: 00: 23,354 -> 00: 00: 25,146
+1 plus 1
+
+00: 00: 26.069 -> 00: 00: 28.915
+I think you already know how to fix it
+
+00: 00: 28.915 -> 00: 00: 33.700
+But I will show you a way to solve it if you have not already learned it outside
+
+00: 00: 33,700 -> 00: 00: 35,438
+or master it
+
+00: 00: 36,646 -> 00: 00: 41,438
+If I have one - let's call it an apple
+
+00: 00: 41.438 -> 00: 00: 47.669
+If I have an apple and you give me another apple
+
+00: 00: 47.669 -> 00: 00: 50.145
+How many apples do I have now?
+
+00: 00: 50,146 -> 00: 00: 52,008
+There is one, two apples
+
+00: 00: 52,054 -> 00: 00: 55,546
+Then 1 plus 1 equals 2
+
+00: 00: 55.623 -> 00: 00: 56.684
+I know what you're thinking:
+
+00: 00: 56,700 -> 00: 00: 58,300
+"It's all too easy!"
+
+00: 00: 58,300 -> 00: 01: 01.138
+So let me give you something harder
+
+00: 01: 01.138 -> 00: 01: 02.600
+I like to count on apples
+
+00: 01: 02.677 -> 00: 01: 05.300
+let's go on with it a little bit yet
+
+00: 01: 05,300 -> 00: 01: 10,700
+What is 3 plus 4?
+
+00: 01: 10.700 -> 00: 01: 13.300
+I think this is a little hard piece
+
+00: 01: 13,300 -> 00: 01: 15,399
+Let's continue with apples
+
+00: 01: 25,000 -> 00: 01: 28,631
+Let's say I have 3 apples
+
+00: 01: 28,631 -> 00: 01: 30,000
+1
+
+00: 01: 30,000 -> 00: 01: 31,100
+2
+
+00: 01: 31.100 -> 00: 01: 32.800
+3
+
+00: 01: 32.800 -> 00: 01: 36.676
+Let's say you have 4 apples
+
+00: 01: 36,677 -> 00: 01: 41,500
+I make them yellow so you know it's the ones you give me
+
+00: 01: 41.500 -> 00: 01: 42.600
+1
+
+00: 01: 42,600 -> 00: 01: 43,399
+2
+
+00: 01: 43,400 -> 00: 01: 45,000
+3
+
+00: 01: 45,000 -> 00: 01: 47,000
+4
+
+00: 01: 47,000 -> 00: 01: 48,962
+How many apples do we have now?
+
+00: 01: 49.085 -> 00: 01: 50.169
+There is
+
+00: 01: 50.169 -> 00: 01: 51.154
+1
+
+00: 01: 51.169 -> 00: 01: 51.991
+2
+
+00: 01: 52.008 -> 00: 01: 52.800
+3
+
+00: 01: 52,800 -> 00: 01: 53,500
+4
+
+00: 01: 53,500 -> 00: 01: 54,100
+5
+
+00: 01: 54,100 -> 00: 01: 54,899
+6
+
+00: 01: 54.900 -> 00: 01: 56.438
+7 apples
+
+00: 01: 56.438 -> 00: 01: 59.769
+So 3 plus 4 equals 7
+
+00: 01: 59.769 -> 00: 02: 01.277
+Now I will introduce you to another way to solve this task
+
+00: 02: 01.308 -> 00: 02: 03.308
+also called a number series
+
+00: 02: 09,699 -> 00: 02: 11,831
+In the speech series I write all the numbers in sequence
+
+00: 02: 11.831 -> 00: 02: 16.899
+and I write many numbers so that all the numbers I use are among those written on the speech series
+
+00: 02: 16.900 -> 00: 02: 18.969
+We start with 0
+
+00: 02: 21,200 -> 00: 02: 36,976
+And then we say 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+00: 02: 37,069 -> 00: 02: 39,476
+It continues: 11, ...
+
+00: 02: 39,477 -> 00: 02: 40,892
+We say 3 plus 4
+
+00: 02: 40.985 -> 00: 02: 43.046
+We therefore start at 3
+
+00: 02: 43.046 -> 00: 02: 45.146
+I have 3 here
+
+00: 02: 45,146 -> 00: 02: 46,899
+and we will put 4 to the 3
+
+00: 02: 46.900 -> 00: 02: 49.400
+What you do is move
+
+00: 02: 49,400 -> 00: 02: 50,285
+to the right of his speech series
+
+00: 02: 50.285 -> 00: 02: 52.008
+4 more
+
+00: 02: 53,100 -> 00: 02: 54,500
+1
+
+00: 02: 54,500 -> 00: 02: 55,700
+2
+
+00: 02: 55.700 -> 00: 02: 57.200
+3
+
+00: 02: 57.200 -> 00: 03: 00.100
+4
+
+00: 03: 00.100 -> 00: 03: 01.677
+so all we do is increase it by 1
+
+00: 03: 01.677 -> 00: 03: 02.415
+2
+
+00: 03: 02.431 -> 00: 03: 02.931
+3
+
+00: 03: 02.931 -> 00: 03: 03.508
+4
+
+00: 03: 03.508 -> 00: 03: 04.969
+and then we end at 7
+
+00: 03: 04.969 -> 00: 03: 07.200
+and that is our answer
+
+00: 03: 07.200 -> 00: 03: 08.191
+Let's try with a few more pieces
+
+00: 03: 10.800 -> 00: 03: 13.315
+What if I asked you what 8 plus 1 is?
+
+00: 03: 14,923 -> 00: 03: 16,100
+You may already know
+
+00: 03: 16,100 -> 00: 03: 17,600
+8 plus 1 is just the next number
+
+00: 03: 17,600 -> 00: 03: 19,100
+but if we look at the speech series
+
+00: 03: 19,100 -> 00: 03: 21,100
+then you start at 8
+
+00: 03: 21,100 -> 00: 03: 23,500
+and adds 1
+
+00: 03: 23,500 -> 00: 03: 25,700
+8 plus 1 equals 9
+
+00: 03: 28.762 -> 00: 03: 31.208
+let's try with a few more pieces
+
+00: 03: 31.208 -> 00: 03: 33.100
+and just so you know it
+
+00: 03: 33,100 -> 00: 03: 33,799
+if you are a little scared to start with
+
+00: 03: 33,800 -> 00: 03: 35,500
+You can always draw the circles
+
+00: 03: 35,500 -> 00: 03: 37,400
+You can always draw the series
+
+00: 03: 37,400 -> 00: 03: 38,800
+and gradually over time
+
+00: 03: 38.800 -> 00: 03: 40.200
+The more training you get
+
+00: 03: 40,200 -> 00: 03: 41,353
+then you will hopefully learn this outwardly
+
+00: 03: 41,354 -> 00: 03: 43.238
+and then it will be in half a second
+
+00: 03: 43.238 -> 00: 03: 44.192
+I promise you
+
+00: 03: 44.192 -> 00: 03: 46.115
+just keep on exercising
+
+00: 03: 47,600 -> 00: 03: 48,631
+I draw the number of words again
+
+00: 04: 07.900 -> 00: 04: 08.538
+
+00: 04: 08.569 -> 00: 04: 09.208
+1
+
+00: 04: 09.208 -> 00: 04: 10.523
+2
+
+00: 04: 10.523 -> 00: 04: 12.200
+3
+
+00: 04: 12,200 -> 00: 04: 13,299
+4
+
+00: 04: 13,300 -> 00: 04: 14,900
+5
+
+00: 04: 14.900 -> 00: 04: 16.100
+6
+
+00: 04: 16,100 -> 00: 04: 17,400
+7
+
+00: 04: 17.399 -> 00: 04: 18.500
+8
+
+00: 04: 18,500 -> 00: 04: 20,100
+9
+
+00: 04: 20,100 -> 00: 04: 21,500
+10
+
+00: 04: 21.500 -> 00: 04: 22.900
+11
+
+00: 04: 22.900 -> 00: 04: 24.299
+12
+
+00: 04: 24,300 -> 00: 04: 25,700
+13
+
+00: 04: 25,700 -> 00: 04: 27,099
+14
+
+00: 04: 27,100 -> 00: 04: 29,600
+15
+
+00: 04: 29,600 -> 00: 04: 31,723
+Let's solve a hard piece
+
+00: 04: 31.723 -> 00: 04: 34.046
+what is...
+
+00: 04: 34.046 -> 00: 04: 36.200
+We make it in different colors
+
+00: 04: 36,200 -> 00: 04: 39,361
+What is 5 plus 6?
+
+00: 04: 39.377 -> 00: 04: 41.300
+If you want, you can pause the video and try it
+
+00: 04: 41,300 -> 00: 04: 43,300
+You may already know the answer
+
+00: 04: 43,300 -> 00: 04: 45,708
+The reason I say it is a difficult issue is because
+
+00: 04: 45,708 -> 00: 04: 48,685
+The answer has more numbers than fingers
+
+00: 04: 48.685 -> 00: 04: 51.700
+so you can not calculate it on your fingers
+
+00: 04: 59.000 -> 00: 05: 03.008
+Let's start with 5
+
+00: 05: 05,200 -> 00: 05: 06,692
+and we will add 6 to it
+
+00: 05: 06,692 -> 00: 05: 07,600
+We go to the right
+
+00: 05: 07,600 -> 00: 05: 08,500
+1
+
+00: 05: 08.500 -> 00: 05: 09.700
+2
+
+00: 05: 09.700 -> 00: 05: 10.800
+3
+
+00: 05: 10.800 -> 00: 05: 11.700
+4
+
+00: 05: 11.700 -> 00: 05: 13.200
+5
+
+00: 05: 13,200 -> 00: 05: 15,599
+6
+
+00: 05: 15,600 -> 00: 05: 17,700
+and we end at 11
+
+00: 05: 17.700 -> 00: 05: 20.346
+So 5 plus 6 equals 11
+
+00: 05: 22,200 -> 00: 05: 23,777
+What is 6 plus 5?
+
+00: 05: 29.685 -> 00: 05: 31.338
+Can you turn the piece over and still get the same answer?
+
+00: 05: 31.338 -> 00: 05: 32.708
+Let's try it
+
+00: 05: 32.708 -> 00: 05: 33.715
+I will try to do it in a different color
+
+00: 05: 33.715 -> 00: 05: 35.361
+so we do not get confused
+
+00: 05: 35.362 -> 00: 05: 37.638
+Let's start at 6
+
+00: 05: 37,638 -> 00: 05: 39,400
+ignore the yellow
+
+00: 05: 39,400 -> 00: 05: 41,000
+and add 5 to
+
+00: 05: 41,000 -> 00: 05: 42,000
+1
+
+00: 05: 42,000 -> 00: 05: 43,100
+2
+
+00: 05: 43,100 -> 00: 05: 44,300
+3
+
+00: 05: 44,300 -> 00: 05: 45,000
+4
+
+00: 05: 45,000 -> 00: 05: 45,500
+5
+
+00: 05: 46,100 -> 00: 05: 48,200
+We used to know the same number.
+
+00: 05: 48,200 -> 00: 05: 49,392
+You may want to try it on other pieces
+
+00: 05: 49.392 -> 00: 05: 51.207
+and discover that the result is the same every time
+
+00: 05: 51.208 -> 00: 05: 53.700
+It does not matter which order the numbers are in, the result will be the same
+
+00: 05: 53,700 -> 00: 05: 56,069
+5 plus 6 is the same as 6 plus 5
+
+00: 05: 56.069 -> 00: 05: 57.285
+It makes sense
+
+00: 05: 57.285 -> 00: 06: 00.146
+If I have 5 apples and you give 6, then I have 11
+
+00: 06: 00,146 -> 00: 06: 03,200
+If I have 6 and you give me 5, I will also have 11
+
+00: 06: 05,462 -> 00: 06: 07,146
+Because the talk is easy to work with
+
+00: 06: 07,146 -> 00: 06: 08,738
+Then I will continue a little bit with it
+
+00: 06: 08.738 -> 00: 06: 10.862
+Although I'm sure I'm going to confuse you
+
+00: 06: 10.862 -> 00: 06: 12.315
+because I write so much on it
+
+00: 06: 13.685 -> 00: 06: 14.908
+let's try to see
+
+00: 06: 14,908 -> 00: 06: 15,846
+I want to use white now
+
+00: 06: 16,877 -> 00: 06: 22,923
+What is 8 plus 7?
+
+00: 06: 25,031 -> 00: 06: 27,469
+8 is right there
+
+00: 06: 27.469 -> 00: 06: 29.346
+And we have to add 7 to
+
+00: 06: 29.438 -> 00: 06: 30.223
+1
+
+00: 06: 30.223 -> 00: 06: 31.115
+2
+
+00: 06: 31.115 -> 00: 06: 32.546
+3
+
+00: 06: 32.546 -> 00: 06: 33.592
+4
+
+00: 06: 33.592 -> 00: 06: 34.800
+5
+
+00: 06: 34,800 -> 00: 06: 35,600
+6
+
+00: 06: 35,600 -> 00: 06: 37,308
+7
+
+00: 06: 37,308 -> 00: 06: 39,300
+We end at 15
+
+00: 06: 39,300 -> 00: 06: 43,500
+8 plus 7 equals 15
+
+00: 06: 43.500 -> 00: 06: 47.500
+Hopefully this video gives you an idea of ??how to solve these calculations
+
+00: 07: 24.592 -> 00: 07: 26.176
+You can always press "Hints" and get help
+
+00: 07: 26.177 -> 00: 07: 27.600
+and you will see the circles
+
+00: 07: 27,600 -> 00: 07: 28,977
+You will be able to count the circles
+
+00: 07: 33,100 -> 00: 07: 35,000
+or you can draw a row
+
+00: 07: 35,000 -> 00: 07: 37,700
+just like we have done in this video
+
+00: 07: 37,700 -> 00: 07: 40,599
+I now think you're ready for more add-ons

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<title>
+
+			Live Webcast
+
+		</title>
+
+		<script type="text/javascript" src="jwplayer.js"></script><script type="text/javascript">jwplayer.key="JnNCLPGtYUWoqvF31aCfOHwvvVo69RWS4UkMe+CW0e4=";</script>
+<style type="text/css">
+
+<style type="text/css">
+
+
+
+			html, body {
+
+				height: 100%;
+
+				width: 100%;
+
+				padding: 0;
+
+				margin: 0;
+
+			}
+
+			#player {
+
+				height: 100%;
+
+				width: 100%; 
+
+				padding: 0;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+      <div id="myPlayerGoesHere">
+          <p>
+            <script language="javascript" type="text/javascript">
+
+	jwplayer("myPlayerGoesHere").setup({
+        flashplayer: "jwplayer.flash.swf",
+		sources: [
+{ file: "2017.03.09 12.26.49@2128kbps_2.mp4"},
+<!--{ file: "video/14.02_vod.m3u8",},
+<!--{ file: "video/14.02_vod.m3u8",
+<!--type: "mp4",},
+],
+
+image: 'http://webcast.mit.edu/fall2016/14.01/images/homepage.jpg',
+rtmp: {
+bufferlength: 5
+},
+
+width: "720",
+    height: "405",
+	
+	
+	logo: {
+file: 'ODL-sm.jpg',
+        link: 'https://stellar.mit.edu/S/course/14/sp16/14.01/materials.html'
+    },
+		stretching: "exactfit",
+primary: "html5"
+
+});
+var videoTag;
+var currentRate = 1;
+
+jwplayer().onReady(function() {
+    if (jwplayer().getRenderingMode() == "html5"){
+        videoTag = document.querySelector('video');
+        if(videoTag.playbackRate) {
+            jwplayer().addButton("slomo.png","Toggle to Control Playback Speed",
+                toggleSlomo,"slomo");
+        }
+    }
+});
+function toggleSlomo() {
+    currentRate == 1 ? currentRate = 1.62: currentRate = 1;
+    videoTag.playbackRate = currentRate;
+    videoTag.defaultPlaybackRate = currentRate;
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+        jwplayer().seek(jwplayer().getPosition());
+    }
+};
+
+
+</script>	
+    </div>
+	</body>
+
+</html>
+
+

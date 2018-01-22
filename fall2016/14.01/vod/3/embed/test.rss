@@ -1,0 +1,92 @@
+<rss version="2.0" xmlns:jwplayer="http://rss.jwpcdn.com/">
+<channel>
+
+<item>
+    <title>Lec 1 - February 8, 2017</title>
+    <!--<description>February 8, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video-9_19_2016.mp4" />
+  </item>
+
+<item>
+    <title>Lec 2 - February 13, 2017</title>
+    <!--<description>February 15, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="2017-01-30 12-13-04.mp4" />
+  </item>
+  
+  <item>
+    <title>Lec 3 - February 15, 2017</title>
+    <!--<description>February 13, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+<item>
+    <title>Lec 4 - February 20, 2017</title>
+    <!--<description>February 8, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+
+<item>
+    <title>Lec 5 - February 22, 2017</title>
+    <!--<description>February 8, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+<item>
+    <title>Lec 6 - February 27, 2017</title>
+    <!--<description>February 15, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video-9_14_2016.mp4" />
+  </item>
+  
+  <item>
+    <title>Lec 7 - February 29, 2017</title>
+    <!--<description>February 13, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+<item>
+    <title>Lec 8 - February 8, 2017</title>
+    <!--<description>February 8, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+ 
+<item>
+    <title>Lec 9 - February 8, 2017</title>
+    <!--<description>February 8, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+<item>
+    <title>Lec 10 - February 15, 2017</title>
+    <!--<description>February 15, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video-9_14_2016.mp4" />
+  </item>
+  
+  <item>
+    <title>Lec 11 - February 13, 2017</title>
+    <!--<description>February 13, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+<item>
+    <title>Lec 12 - February 8, 2017</title>
+    <!--<description>February 8, 2017</description>-->
+    <jwplayer:image>homepage17.jpg</jwplayer:image>
+    <jwplayer:source file="video.mp4" />
+  </item>
+
+
+</channel>
+</rss>

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<title>
+
+			C3E Live Webcast
+
+		</title>
+
+		<script type="text/javascript" src="jwplayer.js"></script><script type="text/javascript">jwplayer.key="S/WVgutzP4eT+Jn6TkIkj4Vqwy3nVVhrEN0PHcrR4DY=";</script>
+<style type="text/css">
+
+<style type="text/css">
+ body {
+                font: 12px Arial, sans-serif;
+                background-color: #000000;
+                color: #FFFFFF;
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                overflow: hidden;
+            }
+
+
+			html, body {
+
+				height: 100%;
+
+				width: 100%;
+
+				padding: 0;
+
+				margin: 0;
+
+			}
+
+			#player {
+
+				height: 100%;
+
+				width: 100%; 
+
+				padding: 0;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+      <div id='myPlayerGoesHere'>
+          <p>
+            <script language="javascript" type="text/javascript">
+
+	jwplayer("myPlayerGoesHere").setup({
+        flashplayer: "player.swf",
+		sources: [
+
+{ file: "uber-live-1.smil"},
+{ file: "video/odl-sig.m3u8"},
+{ file: "video/odl-sig.m3u8", type: "mp4",},
+
+
+
+],
+image: 'homepage4.jpg',
+rtmp: {
+bufferlength: 5
+},
+
+width: "720",
+   logo: {
+      file: 'http://webcast.amps.ms.mit.edu/embossedMIT75per.jpg',
+link: 'http://odl.mit.edu/news-and-events/events/mitx-sig-special-interest-group'
+    },
+height: "398",
+
+autostart: true,
+primary: "flash"
+
+});
+
+    </script>
+    </div>
+	</body>
+
+</html>
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<title>
+
+			Live Webcast
+
+		</title>
+
+		<script type="text/javascript" src="jwplayer.js"></script><script type="text/javascript">jwplayer.key="JnNCLPGtYUWoqvF31aCfOHwvvVo69RWS4UkMe+CW0e4=";</script>
+<style type="text/css">
+
+<style type="text/css">
+
+
+
+			html, body {
+
+				height: 100%;
+
+				width: 100%;
+
+				padding: 0;
+
+				margin: 0;
+
+			}
+
+			#player {
+
+				height: 100%;
+
+				width: 100%; 
+
+				padding: 0;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+     <div id="myElement">&nbsp;</div>
+<script type="text/javascript">
+var playerInstance = jwplayer("myElement");
+playerInstance.setup({
+  image: "https://content.jwplatform.com/thumbs/3XnJSIm4-640.jpg",
+  file: "//content.jwplatform.com/videos/3XnJSIm4-kNspJqnJ.mp4",
+  tracks: [{ 
+    file: '//support-static.jwplayer.com/content/misc/2UEDrDhv.vtt', 
+    label: 'English', 
+    kind: 'captions' 
+  }],
+ width: "100%",
+ aspectratio:"47:20"
+});
+
+var languages = [{
+  label:'English',file:'//support-static.jwplayer.com/content/misc/2UEDrDhv.vtt'
+},{
+  label:'Japanese',file:'//support-static.jwplayer.com/content/misc/6aaGiPcs.vtt'
+},{
+  label:'Russian',file:'//support-static.jwplayer.com/content/misc/2nxzdRca.vtt'
+},{
+  label:'Spanish',file:'//support-static.jwplayer.com/content/misc/BMjSl0KC.vtt'
+}];
+var single = true;
+
+function toggle() {
+  var t = [];
+  if(single) {
+    single = false;
+    for (var i=0; i<languages.length; i++) {
+      t.push({
+        file: languages[i].file,
+        kind: 'captions',
+        label: languages[i].label,
+      });
+    }
+  } else {
+    single = true;
+    t.push({
+      file: languages[0].file,
+      kind:'captions',
+      label: languages[0].label
+    });
+  }
+ playerInstance.load({
+    file: "//content.jwplatform.com/videos/3XnJSIm4-kNspJqnJ.mp4",
+    tracks: t
+  });
+  playerInstance.play();
+  return false;
+};
+</script>
+ 
+	</body>
+
+</html>
+
+

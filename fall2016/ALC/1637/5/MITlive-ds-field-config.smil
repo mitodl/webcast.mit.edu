@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmp://18.39.0.84/live/" />
+  </head>
+  <body>
+    <switch>
+    	<video src="MITlive-lo" system-bitrate="300000" width="640"/>
+	<video src="MITlive-hi" system-bitrate="900000" width="640"/>      
+	</switch>
+  </body>
+</smil>

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<title>
+
+			Live Webcast
+
+		</title>
+
+		<script type="text/javascript" src="jwplayer.js"></script><script type="text/javascript">jwplayer.key="S/WVgutzP4eT+Jn6TkIkj4Vqwy3nVVhrEN0PHcrR4DY=";</script>
+
+<style type="text/css">
+
+<style type="text/css">
+
+
+
+			html, body {
+
+				height: 100%;
+
+				width: 100%;
+
+				padding: 0;
+
+				margin: 0;
+
+			}
+
+			#player {
+
+				height: 100%;
+
+				width: 100%; 
+
+				padding: 0;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+      <div id='myPlayerGoesHere'>
+          <p>
+            <script language="javascript" type="text/javascript">
+
+	jwplayer("myPlayerGoesHere").setup({
+        flashplayer: "player.swf",
+		sources: [
+{ file: "MITlive-ds-2.smil"},
+{ file: "video/alumni.m3u8",
+type: "mp4",},
+],
+image: 'homepage3.jpg',
+rtmp: {
+bufferlength: 5
+},
+
+width: "580",
+   logo: {
+file: 'http://webcast.amps.ms.mit.edu/MITlive.jpg',
+        link: 'https://alum.mit.edu/learn/facultyforumonline'
+    },
+
+      
+
+height: "326",
+
+    stretching: "exactfit",
+autostart: true,
+primary: "flash"
+
+});
+
+    </script>
+    </div>
+	</body>
+
+</html>
+
+
