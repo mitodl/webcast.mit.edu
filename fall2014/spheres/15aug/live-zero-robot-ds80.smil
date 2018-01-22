@@ -1,0 +1,12 @@
+<smil>
+  <head>
+    <meta base="rtmpt://18.39.0.80/live/" />
+  </head>
+  <body>
+    <switch>
+    <video src="live-webcast1" system-bitrate="308000"/>
+	<video src="live-webcast2" system-bitrate="708000"/>      
+	<video src="live-webcast3" system-bitrate="1108000"/>      
+	</switch>
+  </body>
+</smil>

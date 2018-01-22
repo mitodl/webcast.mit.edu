@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Live Multi Bit Rate Player</title>
+</head>
+<body>
+<div id='player'>This div will be replaced by the JW Player.</div>
+<script type='text/javascript' src='/jwplayer.js'></script>
+<script type='text/javascript'>
+  jwplayer('player').setup({
+    'id': 'playerID',
+    'width': '640',
+    'height': '480',
+    'file': '/flash-mbr.xml',
+    'modes': [
+      {type: 'flash', src: '/player.swf'},
+      {
+        type: 'html5',
+        config: {
+          'file': '/ios-mbr.xml'
+        }
+      }
+    ]
+  });
+</script>
+</body>
+</html>

@@ -19,8 +19,17 @@ Untitled*
 *Copy*
 *\(2\)*
 
-# unnecessary unnecessary of directories
+# unnecessary copies of directories
 *New\ folder/
 *OLD/
 *old2/
 *old-chief/
+
+# src code that should not be on the web site
+/f/
+/h/
+/i/
+/fall2014/f4m/OSMF-src/
+/fall2014/f4m/stream-video-player/
+*.zip
+

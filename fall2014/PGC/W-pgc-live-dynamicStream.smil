@@ -1,0 +1,12 @@
+<smil>
+  <head>
+    <meta base="rtmpt://cp278775.live.edgefcs.net/live/" />
+  </head>
+  <body>
+    <switch>
+     <video src="PGC1@177354" system-bitrate="308000"/>
+     <video src="PGC2@177354" system-bitrate="708000"/>
+	 <video src="PGC3@177354" system-bitrate="1108000"/>
+      </switch>
+  </body>
+</smil>

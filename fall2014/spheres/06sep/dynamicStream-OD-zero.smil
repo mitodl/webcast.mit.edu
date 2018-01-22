@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmpt://18.39.0.80/vod" />
+  </head>
+  <body>
+    <switch>
+      <video src="mp4:mit-spheres-finals-15aug2014-lo.mp4" system-bitrate="108000"/>
+      <video src="mp4:mit-spheres-finals-15aug2014-hi.mp4" system-bitrate="1008000"/>
+     </switch>
+  </body>
+</smil>

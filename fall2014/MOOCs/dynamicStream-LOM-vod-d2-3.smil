@@ -1,0 +1,11 @@
+<smil>
+  <head>
+    <meta base="rtmpt://18.39.0.80/vod" />
+  </head>
+  <body>
+    <switch>
+      <video src="mp4:LOM-vod-d2-3-lo.mp4" system-bitrate="308000"/>
+      <video src="mp4:LOM-vod-d2-3-hi.mp4" system-bitrate="1008000"/>
+     </switch>
+  </body>
+</smil>
