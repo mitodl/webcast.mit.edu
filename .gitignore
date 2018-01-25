@@ -1,10 +1,11 @@
-# video files
+# audio/video files
 *.ts
 *.mp*
 *.mp4
 *.m4v
 *.mov
 *.wmv
+*.aac
 
 # raw image files
 *.psd
