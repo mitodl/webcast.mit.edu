@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- flowplayer javascript component -->
+    <script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
+	<meta charset="utf-8">
+	<title>HTML5 Video Lesson</title>
+</head>
+<body><video controls poster='poster320.jpg' width='640' height='288'>
+	<source src='videos/BigBuck.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>     
+  
+	<a href="http://osmf.org/videos/cathy2.flv"    class="player"
+    style="display:block;width:700px;height:450px;margin:10px auto"
+    id="player">
+    </a>
+
+<!-- this script block will install Flowplayer inside previous A tag -->
+<script>
+flowplayer("player",
+           "http://releases.flowplayer.org/swf/flowplayer.commercial-3.2.18.swf",{
+    // license key from your account
+    key: '#$87d8ce682888f59c16f'
+});
+</script>
+	<source src='videos/BigBuck.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>     
+   		<h1><a href="-videos/BigBuck.mp4">Download the video</a></h1> 
+	</object>
+</video>
+</body>
+</html>

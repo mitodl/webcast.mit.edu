@@ -1,0 +1,80 @@
+<html>
+<head>
+   <!-- player skin -->
+   <link rel="stylesheet" type="text/css"
+      href="http://releases.flowplayer.org/5.4.3/skin/minimalist.css">
+   
+   <style>
+<a href="http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv"    class="live"
+    style="display:block;width:900;height:;margin:10px auto"
+    id="player">
+    <!-- specify a splash image inside the container -->
+<img
+    src="/media/img/home/flow_eye.jpg"
+    alt="Search engine friendly content" />
+ </style>
+<!-- flowplayer depends on jQuery 1.7.1+ -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- flowplayer javascript component -->
+   <script src="http://releases.flowplayer.org/5.4.3/flowplayer.min.js"></script>
+    <!-- flowplayer javascript component -->
+    <script src="http://robertdev.influxis.com/videos/flowf4m/flowplayer-3.2.12.min.js"></script>
+ <script type="text/javascript">
+var file = "http://18.39.0.80/hls-live/livepkgr/_definst_/liveevent/live.m3u8";
+if ((navigator.userAgent.indexOf('Android') >0) ||
+(navigator.userAgent.indexOf('BlackBerry') >0) ||
+(navigator.userAgent.indexOf('Android')  >0) ||
+(navigator.userAgent.indexOf('IEMobile/7.0') >0))  {
+
+        document.write("<video width= '");
+        document.write(900 + "'")
+        document.write("height='");
+        document.write(600 + "'");
+        document.write("poster preload='true' controls>");
+        document.write("<source src=" + file + ">");
+        
+}
+</script>  
+</head>
+<body>
+<align=left>
+ <script src="http://robertdev.influxis.com/videos/flowf4m/flowplayer.ipad-3.2.12.js" type="text/javascript"></script>
+
+<div id="live" style="display:block;width:900;height:600;margin:0 auto;"></div>
+
+<script>
+// install flowplayer into container
+$f("live", "http://robertdev.influxis.com/videos/flowf4m/flowplayer-3.2.16.swf", {
+    clip: {
+        url: "working2.f4m",
+        urlResolvers: ["f4m"],
+        provider: "httpstreaming",
+        autoPlay: true,
+        startLivePosition: true,
+        dvrSnapToLiveClockOffset: 4,
+
+
+        // base URL for manifest and media files
+        baseUrl: "working2.f4m",
+
+        // URL of M3U8 playlist for iOS
+        ipadUrl: "http://18.39.0.80/hls-live/livepkgr/_definst_/liveevent/live.m3u8",
+
+        scaling: "fit",
+        live: "true"        
+    },
+    plugins: {
+        f4m: {
+            url: "http://robertdev.influxis.com/videos/flowf4m/flowplayer.f4m-3.2.9.swf"
+        },
+        httpstreaming: {
+            url: "http://robertdev.influxis.com/videos/flowf4m/flowplayer.httpstreaming-3.2.10.swf"
+        },
+
+    }
+}).ipad(); // sets up the player on iOS
+</script>
+
+</body>
+
+</html>

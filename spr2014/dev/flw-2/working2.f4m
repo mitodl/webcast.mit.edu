@@ -1,0 +1,8 @@
+<manifest xmlns="http://ns.adobe.com/f4m/2.0">
+  <baseURL>http://18.39.0.80/hds-live/livepkgr/_definst_/liveevent/</baseURL>
+  <media href="livestream1.f4m" bitrate="150"/>
+  <media href="livestream2.f4m" bitrate="400"/>
+  <media href="livestream3.f4m" bitrate="600"/>
+</manifest>
+
+

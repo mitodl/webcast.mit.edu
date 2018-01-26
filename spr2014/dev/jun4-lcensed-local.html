@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <title>Commercial Version : Flowplayer</title>
+
+ <!--<link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+     standalone page styling. can be removed -->
+    <style>
+        body{
+            width:982px;
+            margin:50px auto;
+            font-family:sans-serif;
+        }
+        a:active {
+            outline:none;
+        }
+        :focus { -moz-outline-style:none; }
+
+        .palert {
+            padding: 12px;
+            color: black;
+            background-color: #ededed;
+            box-shadow: none;
+        }
+    </style>
+
+    
+    
+    <!-- flowplayer javascript component -->
+    <script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
+
+    </head>
+
+<body>
+    <!-- player container-->
+<a
+    href="mit-alumni--EDIT-11_56_57 AM-6_16_2014.mp4"    class="player"
+    style="display:block;width:700px;height:450px;margin:10px auto"
+    id="player">
+    </a>
+
+<!-- this script block will install Flowplayer inside previous A tag -->
+<script>
+flowplayer("player",
+           "http://releases.flowplayer.org/swf/flowplayer.commercial-3.2.18.swf",{
+    // license key from your account
+    key: '#$87d8ce682888f59c16f'
+});
+</script>
+
+</body>
+
+</html>

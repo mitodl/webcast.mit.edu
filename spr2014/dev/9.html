@@ -1,0 +1,48 @@
+<html>
+<head>
+    
+    <title>Flowplayer Minimal Setup : Flowplayer</title>
+
+    <link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+    <!-- standalone page styling. can be removed -->
+    <style>
+        body{
+            width:982px;
+            margin:50px auto;
+            font-family:sans-serif;
+        }
+        a:active {
+            outline:none;
+        }
+        :focus { -moz-outline-style:none; }
+
+        .palert {
+            padding: 12px;
+            color: black;
+            background-color: #ededed;
+            box-shadow: none;
+        }
+    </style>
+
+    
+    
+    <!-- flowplayer javascript component -->
+    <script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
+
+    </head>
+
+<body>
+    <!-- player container-->
+<a href=""http://webcast.mit.edu/spr2014/dev/mit-100k-14may2014-hi.mp4"    class="player"
+    style="display:block;width:425px;height:300px;margin:10px auto"
+    id="player">
+    </a>
+
+<!-- this script block will install Flowplayer inside previous A tag -->
+<script>
+flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf");
+</script>
+
+</body>
+
+</html>
