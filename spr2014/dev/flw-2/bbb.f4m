@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://ns.adobe.com/f4m/1.0">
+    <id>bbb</id>
+    <duration>653</duration>
+    <baseURL>rtmp://s3b78u0kbtx79q.cloudfront.net/cfx/st</baseURL>
+    <urlIncludesFMSApplicationInstance>true</urlIncludesFMSApplicationInstance>
+    <media url="mp4:bbb-800"/>
+</manifest>

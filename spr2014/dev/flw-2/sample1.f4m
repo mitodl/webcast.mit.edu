@@ -1,0 +1,6 @@
+bitrates: [
+    {url: 'livestream1.f4m', bitrate: 150},
+    {url: 'livestream2.f4m', bitrate: 700},
+	{url: 'livestream3.f4m', bitrate: 1000},
+    
+]

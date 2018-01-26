@@ -1,0 +1,120 @@
+<<!doctype html>
+<html>
+<head>
+    
+    <title>Bandwidth hints from SMIL : Flowplayer</title>
+
+    <link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+    <!-- standalone page styling. can be removed -->
+    <style>
+        body{
+            width:982px;
+            margin:50px auto;
+            font-family:sans-serif;
+        }
+        a:active {
+            outline:none;
+        }
+        :focus { -moz-outline-style:none; }
+
+        .palert {
+            padding: 12px;
+            color: black;
+            background-color: #ededed;
+            box-shadow: none;
+        }
+    </style>
+
+    
+    
+    <!-- flowplayer javascript component -->
+    <script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
+
+    </head>
+
+<body>
+    
+<a
+    href="bbb_480x270"
+    style="display:block;width:480px;height:270px"
+    class="player"
+    id="bplayer">
+</a>
+
+
+<!-- this script block will install Flowplayer inside previous A tag -->
+<script>
+flowplayer("bplayer", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf", {
+    clip: {
+        url: "/demos/standalone/plugins/streaming/bitrates.smil.xml",
+        autoPlay: false,
+        provider: 'rtmp',
+
+        // use smil and bwcheck when resolving the clip URL
+        urlResolvers: [ 'smil', 'bwcheck' ]
+    },
+
+    plugins: {
+
+        // the SMIL plugin reads in and parses the SMIL, and provides
+        // the bitrates info to the bw detection plugin
+        smil: {
+            url: "flowplayer.smil-3.2.9.swf"
+        },
+        // bandwidth check plugin
+bwcheck: {
+    url: "flowplayer.bwcheck-3.2.13.swf",
+
+    // HDDN uses Wowza servers
+    serverType: 'wowza',
+
+    // we use dynamic switching, the appropriate bitrate is switched on the fly
+    dynamic: true,
+
+    netConnectionUrl: 'rtmp://rtmp01.hddn.com/play',
+
+    // show the selected file in the content box. This is not used in real
+    // installations.
+    onStreamSwitchBegin: function(newItem, currentItem) {
+        this.getPlayer().getPlugin('content').setHtml(
+            "Will switch to: " + newItem.streamName +
+            " from " + currentItem.streamName);
+    },
+    onStreamSwitch: function(newItem) {
+        this.getPlayer().getPlugin('content').setHtml(
+                "Switched to: " + newItem.streamName);
+    }
+},
+
+// RTMP streaming plugin
+rtmp: {
+    url: "flowplayer.rtmp-3.2.13.swf",
+    netConnectionUrl: 'rtmp://rtmp01.hddn.com/play'
+},
+
+// a content box so that we can see the selected item
+// usually omitted in production
+content: {
+    url: "flowplayer.content-3.2.9.swf",
+    top: 0,
+    left: 0,
+    width: 400,
+    height: 150,
+    backgroundColor: 'transparent',
+    backgroundGradient: 'none',
+    border: 0,
+    textDecoration: 'outline',
+    style: {
+        body: {
+            fontSize: 14,
+            fontFamily: 'Arial',
+            textAlign: 'center',
+            color: '#ffffff'
+        }
+    }
+}    }
+});
+</script>
+</body>
+
+</html>

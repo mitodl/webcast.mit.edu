@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Video Lesson</title>
+</head>
+<body>
+  
+	<object width="720" height="420" type="application/x-shockwave-flash" data="player/flowplayer.commercial-3.2.15.swf"> 
+  		flowplayer("player",
+           "http://releases.flowplayer.org/swf/flowplayer.commercial-3.2.18.swf",{
+    // license key from your account
+    key: '#$87d8ce682888f59c16f'
+});
+        
+        <param name="movie" value="player/flowplayer.commercial-3.2.15.swf" /> 
+	   	<param name="allowfullscreen" value="true" /> 
+	    	<param name="flashvars" value='config={"clip": {"url": "http://18.39.0.80/hds-live/livepkgr/definst_/liveevent/livestream3.f4v", "autoPlay":false, "autoBuffering":true}}' />
+          <video controls poster='poster320.jpg' width='640' height='288'>
+	<source src='videos/BigBuck.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>     
+   		<h1><a href="-videos/BigBuck.mp4">Download the video</a></h1> 
+	</object>
+</video>
+</body>
+</html>

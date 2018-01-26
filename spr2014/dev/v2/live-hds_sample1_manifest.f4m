@@ -1,0 +1,9 @@
+<manifest xmlns="http://ns.adobe.com/f4m/2.0">
+
+<media href="http://18.39.0.80/hds-live/livepkgr/_definst_/liveevent/livestream1.f4v.f4m" bitrate="150"/>
+  
+<media href="http://18.39.0.80/hds-live/livepkgr/_definst_/liveevent/livestream2.f4v.f4m" bitrate="500"/>
+
+<media href="http://18.39.0.80/hds-live/livepkgr/_definst_/liveevent/livestream3.f4v.f4m" bitrate="700"/>
+
+</m

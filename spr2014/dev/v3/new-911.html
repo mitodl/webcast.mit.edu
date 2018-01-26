@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    
+    <title>Bandwidth hints from F4M : Flowplayer</title>
+
+    <link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+    <!-- standalone page styling. can be removed -->
+    <style>
+        body{
+            width:982px;
+            margin:50px auto;
+            font-family:sans-serif;
+        }
+        a:active {
+            outline:none;
+        }
+        :focus { -moz-outline-style:none; }
+
+        .palert {
+            padding: 12px;
+            color: black;
+            background-color: #ededed;
+            box-shadow: none;
+        }
+    </style>
+
+    
+    
+    <!-- flowplayer javascript component -->
+    <script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
+
+    </head>
+
+<body>
+    <a id="bplayer" href="bbb_480x270"
+    style="display:block;width:660px;height:350px;">
+
+</a>
+
+<!-- Flowplayer installation and configuration -->
+<script language="JavaScript">
+flowplayer("bplayer", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf", {
+    clip: {
+        url: "2-hds_sample1_manifest.f4m",
+        autoPlay: false,
+        provider: 'rtmp',
+
+        // use f4m and bwcheck when resolving the clip URL
+        urlResolvers: [ 'f4m', 'bwcheck' ]
+    },
+    plugins: {
+
+        f4m: { url: "flowplayer.f4m-3.2.10.swf" },
+        bwcheck: {
+            url: "flowplayer.bwcheck-3.2.13.swf",
+
+            // we use dynamic switching, the appropriate bitrate is switched on the fly
+            dynamic: true,
+
+            // also check and select best bitrate on start
+            checkOnStart: true,
+            // server type needed for checkOnStart even with
+            // urlIncludesFMSApplicationInstance in the f4m
+            serverType: "fms",
+
+            // show the selected file in the content box. This is not used in real
+            // installations.
+            onStreamSwitchBegin: function(newItem, currentItem) {
+                 $f().getPlugin('content').setHtml(
+                    "Will switch to: " + newItem.streamName +
+                    " from " + currentItem.streamName);
+            },
+            onStreamSwitch: function(newItem) {
+                $f().getPlugin('content').setHtml(
+                        "Switched to: " + newItem.streamName);
+            },
+            onBwDone: function(mappedItem, detectedBitrate) {
+                // needs checkOnStart
+                var content = $f().getPlugin('content');
+                var info = "Your speed is: " + detectedBitrate +
+                           ". Your chosen bitrate: " + mappedItem.bitrate +
+                           ". Video file served: " + mappedItem.url;
+                content.setHtml(info);
+            }
+        },
+
+        // RTMP streaming plugin
+        rtmp: {
+            url: "flowplayer.rtmp-3.2.13.swf"
+        },
+
+        // a content box so that we can see the selected bitrate. This is not normally
+        // used in real installations.
+        content: {
+            url: "flowplayer.content-3.2.9.swf",
+            top: 0,
+            left: 0,
+            width: 400,
+            height: 150,
+            backgroundColor: 'transparent',
+            backgroundGradient: 'none',
+            border: 0,
+            textDecoration: 'outline',
+            style: {
+                body: {
+                    fontSize: 14,
+                    fontFamily: 'Arial',
+                    textAlign: 'center',
+                    color: '#ffffff'
+                }
+            }
+        }
+    },
+    log: {
+        level: 'debug',
+        filter: 'org.flowplayer.f4m.*, org.flowplayer.rtmp.*, org.flowplayer.bwcheck.*'
+    }
+
+});
+</script>
+
+</body>
+
+</html>

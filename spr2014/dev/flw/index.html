@@ -1,0 +1,41 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- A minimal Flowplayer setup to get you started -->
+  
+
+	<!-- 
+		include flowplayer JavaScript file that does  
+		Flash embedding and provides the Flowplayer API.
+	-->
+	<script type="text/javascript" src="flowplayer-3.2.11.min.js"></script>
+	
+	<!-- some minimal styling, can be removed -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- page title -->
+	<title>Minimal Flowplayer setup</title>
+
+</head><body>
+
+	<div id="page">
+		
+		<h1>Minimal Flowplayer setup</h1>
+	
+		<p>View commented source code to get familiar with Flowplayer installation.</p>
+		
+		<!-- this A tag is where your Flowplayer will be placed. it can be anywhere -->
+		<a id="f4mplayer" href="2-hds_sample1_manifest.f4m"
+    style="display:block;width:660px;height:350px;">
+</a>
+	
+		<!-- this will install flowplayer inside previous A- tag. -->
+		<script>
+			flowplayer("player", "flowplayer.commercial-3.2.15.swf");
+		</script>
+			
+
+	
+	</div>
+	
+	
+</body></html>
