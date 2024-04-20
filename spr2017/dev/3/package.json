@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "babel": "5.8.38",
-    "babelify": "6.4.0",
+    "babelify": "10.0.0",
     "bannerize": "1.1.4",
     "browserify": "11.2.0",
     "browserify-shim": "3.8.16",
