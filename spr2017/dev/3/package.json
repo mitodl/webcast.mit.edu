@@ -62,7 +62,7 @@
     "video.js": "^5.12.1"
   },
   "devDependencies": {
-    "babel": "5.8.38",
+    "babel": "6.23.0",
     "babelify": "6.4.0",
     "bannerize": "1.1.4",
     "browserify": "11.2.0",
