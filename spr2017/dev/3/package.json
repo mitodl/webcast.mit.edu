@@ -69,7 +69,7 @@
     "browserify-shim": "3.8.16",
     "connect": "3.7.0",
     "cowsay": "1.6.0",
-    "doctoc": "0.15.0",
+    "doctoc": "2.2.1",
     "karma": "^0.13.0",
     "karma-browserify": "4.4.2",
     "karma-chrome-launcher": "0.2.3",
