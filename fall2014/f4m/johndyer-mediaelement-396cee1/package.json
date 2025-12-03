@@ -2,7 +2,7 @@
   "name": "mediaelement",
   "version": "2.14.0",
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.5.3",
     "grunt-contrib-uglify": "0.11.1",
     "grunt-contrib-concat": "0.5.1",
     "grunt-contrib-cssmin": "0.14.0",
